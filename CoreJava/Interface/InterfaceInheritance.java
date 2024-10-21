@@ -1,4 +1,4 @@
-package CoreJava;
+package CoreJava.Interface;
 
 interface Initial {
 
