@@ -1,19 +1,24 @@
 package CoreJava;
 
 abstract class AbsClass {
-    abstract void show();
+    public abstract void show();
 }
 
 class SubAbsClass extends AbsClass {
 
     @Override
-    void show() {
+    public void show() {
         System.out.println("Extending Abs class");
     }
 
 }
+
 public class Abstract {
-    // AbsClass obj = new AbsClass();
-    SubAbsClass obj = new SubAbsClass();
-    obj.show();
+
+    public static void main(String[] args) {
+        // cannot create object of an abstract class
+        // AbsClass obj = new AbsClass();
+        AbsClass obj = new SubAbsClass();
+        obj.show();
+    }
 }
