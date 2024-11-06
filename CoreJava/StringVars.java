@@ -1,6 +1,7 @@
 package CoreJava;
 
 public class StringVars {
+    
     public static void main(String[] args) {
 
         System.out.println("Normal string");
@@ -24,5 +25,7 @@ public class StringVars {
         System.out.println("Stringbuffer Ex.");
         StringBuilder strBuild = new StringBuilder("Vikas");
         System.out.println(strBuild);
+
+        System.out.println(String.join(" ", "name: vikas", "mishra,", "age:", "XX"));
     }
 }
