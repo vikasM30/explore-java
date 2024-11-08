@@ -6,7 +6,7 @@ final class FinalClass {
     }
 }
 
-// The type SubFinalClass cannot subclass the final class FinalClass
+// The class "SubFinalClass" cannot subclass/inherit from the final class "FinalClass"
 // class SubFinalClass extends FinalClass {
 
 // }

@@ -2,6 +2,9 @@ package CoreJava;
 
 abstract class AbsClass {
     public abstract void show();
+    public void show1() {
+        System.out.println("Concrete class in abstract class");
+    }
 }
 
 class SubAbsClass extends AbsClass {
@@ -20,5 +23,6 @@ public class Abstract {
         // AbsClass obj = new AbsClass();
         AbsClass obj = new SubAbsClass();
         obj.show();
+        obj.show1();
     }
 }
