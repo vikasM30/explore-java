@@ -1,3 +1,4 @@
+package CoreJava;
 class SimplifiedMain {
 
     // to run this code, since its preview feature of java 21, hence: execute commands:
